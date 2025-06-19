@@ -1,9 +1,9 @@
 [project]
-name = "llm-fireworks"
-version = "0.1a0"
-description = "Access fireworks.ai models via API"
+name = "llm-ark"
+version = "0.1.0"
+description = "Access volcengine.com models via API"
 readme = "README.md"
-authors = [{name = "Simon Willison"}]
+authors = [{name = "trswnca"}]
 license = {text = "Apache-2.0"}
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
@@ -13,13 +13,12 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/simonw/llm-fireworks"
-Changelog = "https://github.com/simonw/llm-fireworks/releases"
-Issues = "https://github.com/simonw/llm-fireworks/issues"
-CI = "https://github.com/simonw/llm-fireworks/actions"
+Homepage = "https://github.com/trswnca/llm-ark"
+Changelog = "https://github.com/trswnca/llm-ark/releases"
+Issues = "https://github.com/trswnca/llm-ark/issues"
 
 [project.entry-points.llm]
-fireworks = "llm_fireworks"
+ark = "llm_ark"
 
 [project.optional-dependencies]
 test = ["pytest"]
