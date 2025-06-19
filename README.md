@@ -4,7 +4,7 @@
 
 
 
-Access [volcengine.com](https://volcengine.com)(火山方舟) models via API
+Access [volcengine.com](https://volcengine.com)(火山方舟) models via API. [More models](https://www.volcengine.com/docs/82379/1330310) are available, but only those that are officially recommended, such as **Doubao** and **Deepseek.**
 
 ## Installation
 
